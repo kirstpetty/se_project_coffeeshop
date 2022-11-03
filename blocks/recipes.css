@@ -1,6 +1,6 @@
 .recipes {
   background-color: #fff;
-  background-image: url(/images/background_recipes.svg);
+  background-image: url(../images/background_recipes.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -23,7 +23,7 @@
   max-width: 438px;
   padding: 0 0 80px 80px;
   margin: 0;
-  font-family: serif;
+  font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;

@@ -1,6 +1,6 @@
 .menu {
   background-color: #0a2750;
-  background-image: url(/images/background_menu.svg);
+  background-image: url(../images/background_menu.svg);
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
@@ -23,7 +23,7 @@
   text-align: center;
   max-width: 780px;
   margin: 0 auto;
-  font-family: serif;
+  font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -63,7 +63,7 @@
 
 .card__list-item {
   list-style-type: none;
-  font-family: serif;
+  font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;

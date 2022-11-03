@@ -55,7 +55,7 @@
 
 .header__span-accent {
   display: flex;
-  font-family: serif;
+  font-family: "Noto Serif";
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -73,7 +73,7 @@
 }
 
 .header__description {
-  font-family: serif;
+  font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -89,15 +89,6 @@
   max-height: 568px;
   max-width: 646px;
   z-index: -1;
-}
-
-.header__link {
-  color: #2f80ed;
-  text-decoration: none;
-}
-
-.header__link:hover {
-  color: #1f69c9;
 }
 
 .header__hours {
