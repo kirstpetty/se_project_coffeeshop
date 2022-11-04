@@ -24,7 +24,6 @@
     />
     <title>Practicum Coffee Shop</title>
 
-    <link rel="stylesheet" href="vendor/normalize.css" />
     <link rel="stylesheet" href="pages/index.css" />
     <link rel="icon" href="./favicon.ico" />
   </head>
@@ -46,7 +45,7 @@
               <a class="nav__link" href="#recipes">Recipes</a>
             </li>
             <li>
-              <a class="nav__link" href="#book-a-table">Book a table</a>
+              <a class="nav__link" href="#reservation">Book a table</a>
             </li>
             <li>
               <a class="nav__link" href="#footer">Contacts</a>
@@ -203,6 +202,7 @@
                   type="text"
                   id="name"
                   placeholder="Name Surname"
+                  required
                 />
               </label>
 
@@ -215,12 +215,18 @@
                   max="8"
                   id="numbers"
                   placeholder="1-8"
+                  required
                 />
               </label>
 
               <label class="form__label" for="date">
                 Date & time *
-                <input class="form__input" type="datetime-local" id="date" />
+                <input
+                  class="form__input"
+                  type="datetime-local"
+                  id="date"
+                  required
+                />
               </label>
 
               <label class="form__label" for="email">
@@ -230,6 +236,7 @@
                   type="email"
                   id="email"
                   placeholder="email@email.com"
+                  required
                 />
               </label>
               <button class="form__button">Book a table</button>
@@ -297,7 +304,7 @@
             </ul>
           </div>
         </div>
-        <div class="footer__copyright">© 2022 Kirsten Petty</div>
+        <p class="footer__copyright">© 2022 Kirsten Petty</p>
       </footer>
     </div>
   </body>

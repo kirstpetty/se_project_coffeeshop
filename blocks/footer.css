@@ -1,6 +1,7 @@
 .footer {
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   color: #fff;
+  padding: 60px 100px 0 80px;
 }
 
 .footer__content {
@@ -11,13 +12,11 @@
 .footer__logo {
   width: 116px;
   height: 21px;
-  padding: 60px 0 0 80px;
 }
 
 .footer__social {
   display: flex;
   flex-direction: column;
-  padding: 60px 100px 0 0;
 }
 
 .footer__social-heading {
@@ -65,7 +64,7 @@
 
 .footer__copyright {
   margin: 0;
-  padding: 108px 0 60px 80px;
+  padding: 108px 0 60px;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
