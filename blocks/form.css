@@ -19,7 +19,8 @@
 }
 
 .form__input {
-  border: 1px solid #838383;
+  border: solid #838383;
+  border-radius: 4px;
   height: 60px;
   margin: 8px 0 0;
   font-family: "Inter", "Arial", sans-serif;
